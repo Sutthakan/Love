@@ -23,17 +23,17 @@
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 #noButton {
-  background-image: linear-gradient(to right, #f87171, #ef4444, #dc2626);
+  background-image: linear-gradient(to right, #f87171, #fc0000, #dc2626);
 }
 #noButton:hover {
   transform: scale(1.05) rotate(-5deg);
 }
 #loveButton {
-  background-image: linear-gradient(to right, #ec4899, #db2777, #be185d);
+  background-image: linear-gradient(to right, #ff2eaf, #ff2eaf, #ff2eaf);
 }
 #loveButton:hover {
   transform: scale(1.05) rotate(5deg);
-  background-image: linear-gradient(to right, #ff0077, #ff5599);
+  background-image: linear-gradient(to right, #ff2eaf, #ff2eaf);
 }
 @media (max-width: 640px) {
   .title {
