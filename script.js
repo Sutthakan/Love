@@ -10,7 +10,7 @@ function resetImage() {
 // จำนวนปุ่มไม่ลิมิตที่เท่าไหร่ใส่ตรงนี้
 function handleNoClick() {
   noClickCount++;
-  if (noClickCount < 10) {
+  if (noClickCount < 15) {
     shrinkNoButton();
     moveNoButton();
   } else {
